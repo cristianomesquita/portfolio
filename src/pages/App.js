@@ -1,5 +1,3 @@
-import { Title } from 'components/Title'
-
-const App = () => <Title>Portfólio</Title>
+const App = () => <h1>Portfólio</h1>
 
 export default App
