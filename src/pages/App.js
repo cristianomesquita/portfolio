@@ -5,7 +5,7 @@ import {
   Avatar,
   Title,
   MenuAboutMeContainer,
-  LateralMenu,
+  SideMenu,
   AboutMe
 } from './styled'
 const App = () => (
@@ -15,7 +15,7 @@ const App = () => (
       <Title>Title</Title>
     </AvatarTitleContainer>
     <MenuAboutMeContainer>
-      <LateralMenu>Menu</LateralMenu>
+      <SideMenu>Menu</SideMenu>
       <AboutMe>Sobre mim</AboutMe>
     </MenuAboutMeContainer>
   </MainContainer>

@@ -27,7 +27,7 @@ export const MenuAboutMeContainer = styled.div`
   height: 70vh;
 `
 
-export const LateralMenu = styled.div`
+export const SideMenu = styled.div`
   display: flex;
   background-color: green;
   width: 230px;
