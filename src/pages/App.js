@@ -16,7 +16,7 @@ const App = () => (
     </AvatarTitleContainer>
     <MenuAboutMeContainer>
       <SideMenu>Menu</SideMenu>
-      <AboutMe>Sobre mim</AboutMe>
+      <AboutMe>About me</AboutMe>
     </MenuAboutMeContainer>
   </MainContainer>
 )
