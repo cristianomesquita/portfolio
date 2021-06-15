@@ -8,7 +8,7 @@ import {
   SideMenu,
   AboutMe
 } from './styled'
-import Mulher from "../assets/Mulher.jpeg"
+import Mulher from "../assets/Mulher.jpg"
 const App = () => (
   <MainContainer>
     <AvatarTitleContainer>
