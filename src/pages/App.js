@@ -8,11 +8,13 @@ import {
   SideMenu,
   AboutMe
 } from './styled'
-import Mulher from "../assets/Mulher.jpg"
+import Woman from '../assets/Woman.jpg'
 const App = () => (
   <MainContainer>
     <AvatarTitleContainer>
-      <Avatar><img src={Mulher}/></Avatar>
+      <Avatar>
+        <img src={Woman} />
+      </Avatar>
       <Title>Title</Title>
     </AvatarTitleContainer>
     <MenuAboutMeContainer>
