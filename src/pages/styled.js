@@ -15,6 +15,10 @@ export const Avatar = styled.div`
   display: flex;
   background-color: blue;
   width: 230px;
+
+  img {
+    width: 100%;
+  }
 `
 export const Title = styled.div`
   display: flex;
