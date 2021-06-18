@@ -11,15 +11,7 @@ export const AvatarTitleContainer = styled.div`
   display: flex;
   height: 30vh;
 `
-export const Avatar = styled.div`
-  display: flex;
-  background-color: blue;
-  width: 230px;
 
-  img {
-    width: 100%;
-  }
-`
 export const Title = styled.div`
   display: flex;
   background-color: yellow;
