@@ -12,7 +12,7 @@ import Avatar from 'components/Avatar'
 const App = () => (
   <MainContainer>
     <AvatarTitleContainer>
-      <Avatar src={Woman} height={220} width={230} alt={"Happy woman"} />
+      <Avatar src={Woman} height={220} width={230} alt="Happy woman" />
       <Title>Title</Title>
     </AvatarTitleContainer>
     <MenuAboutMeContainer>
