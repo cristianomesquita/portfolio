@@ -9,7 +9,11 @@ const AccordionContainer = styled.div`
 const Title = styled.h1``
 
 const Content = styled.p``
-const Accordion = props => {
+const Accordion = ({ content, title }) =>
+  <AccordionContainer>
+    <Title> {title}</Title>
+    <Content> {content}</Content>
+  </AccordionContainer>
   ;<AccordionContainer>
     <Title> {props.title}</Title>
     <Content> {props.content}</Content>
