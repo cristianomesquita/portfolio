@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import vectorMinus from '../assets/vectorShow'
+import vectorMinus from 'assets/vectorShow'
 import vectorMore from 'assets/vectorHidden'
 
 const AccordionContainer = styled.div`
