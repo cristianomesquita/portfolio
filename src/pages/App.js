@@ -2,16 +2,17 @@ import React from 'react'
 import {
   MainContainer,
   AvatarTitleContainer,
-  Avatar,
   Title,
   MenuAboutMeContainer,
   SideMenu,
   AboutMe
 } from './styled'
+import Woman from 'assets/Woman.jpg'
+import Avatar from 'components/Avatar'
 const App = () => (
   <MainContainer>
     <AvatarTitleContainer>
-      <Avatar>Avatar</Avatar>
+      <Avatar src={Woman} height={220} width={230} alt="Happy woman" />
       <Title>Title</Title>
     </AvatarTitleContainer>
     <MenuAboutMeContainer>
