@@ -10,4 +10,4 @@ const Accordion = ({ content, title }) => (
   </AccordionContainer>
 )
 
-export default Accordion
+export default Accordion;
