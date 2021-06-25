@@ -8,7 +8,7 @@ import {
   AboutMe
 } from './styled'
 import Woman from 'assets/Woman.jpg'
-import Avatar from 'components/Avatar'
+import Avatar from 'components/Avatar/index'
 const App = () => (
   <MainContainer>
     <AvatarTitleContainer>
