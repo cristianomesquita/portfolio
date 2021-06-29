@@ -1,13 +1,33 @@
-import styled from 'styled-components'
-import vectorMinus from 'assets/vectorShow'
-import vectorMore from 'assets/vectorHidden'
-import { AccordionContainer, Title, Content } from './styles'
+import React from 'react'
+import vectorMore from 'assets/vectorMore.png'
+import vectorMinus from 'assets/vectorMinus.png'
+import { useState } from 'react'
+import { AccordionContainer, AccordionVisible, Title, Content } from './styles'
 
-const Accordion = ({ content, title }) => (
-  <AccordionContainer>
-    <Title> {title}</Title>
-    <Content> {content}</Content>
-  </AccordionContainer>
-)
+const Accordion = ({ content, title }) => {
+  const [selected, setSelected] = useState(true)
+  const [show, setShow] = useState(false)
 
-export default Accordion;
+  const toggle = () => {
+    if (selected === true) {
+      setShow(true)
+      return setSelected(null)
+    }
+    setSelected(true)
+    setShow(false)
+  }
+
+  return (
+    <AccordionContainer>
+      <AccordionVisible>
+        <Title onClick={() => toggle(true)}>
+          {title}
+          {selected === true ? <img src={vectorMore} /> : <img src={vectorMinus} />}
+        </Title>
+        <Content>{show === true ? <p>{content}</p> : <></>}</Content>
+      </AccordionVisible>
+    </AccordionContainer>
+  )
+}
+
+export default Accordion
