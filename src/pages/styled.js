@@ -3,9 +3,13 @@ export const MainContainer = styled.div`
   display: flex;
   margin: 0;
   padding: 0;
-  width: 100%;
+  height: 100vh;
   box-sizing: border-box;
   flex-direction: column;
+  overflow: auto;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500px;
 `
 export const AvatarTitleContainer = styled.div`
   display: flex;
@@ -22,23 +26,33 @@ export const Avatar = styled.div`
 `
 export const Title = styled.div`
   display: flex;
-  background-color: yellow;
+  background-color: #f5f5f5;
   flex-grow: 1;
 `
 
 export const MenuAboutMeContainer = styled.div`
   display: flex;
-  height: 70vh;
+  height: 100%;
+  background-color: #626cc3;
 `
 
 export const SideMenu = styled.div`
   display: flex;
-  background-color: green;
+  background-color: #222222;
   width: 230px;
 `
 
 export const AboutMe = styled.div`
   display: flex;
-  background-color: blue;
+  background-color: #626cc3;
   flex-grow: 1;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+`
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 `
